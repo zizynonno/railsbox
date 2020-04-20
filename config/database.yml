@@ -50,5 +50,5 @@ test:
 production:
   <<: *default
   database: railsbox_production
-  username: railsbox
-  password: <%= ENV['RAILSBOX_DATABASE_PASSWORD'] %>
+  username: root
+  password: 
